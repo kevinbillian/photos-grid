@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photos</title>
+    <style>
+      html, body, ul, li {
+        margin: 0;
+        padding: 0;
+        background-color: lightgrey;
+      }
+
+      img {
+        width: 100%;
+        display: block;
+      }
+
+      h1{
+        font: 40px Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        list-style: none;
+        width: 60%;
+        margin: auto;
+        border: 10px solid white;
+        box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.7);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Photos</h1>
+    <ul class="container">
+        <li><img src="img/1.jpg" alt="drone-view" /></li>
+        <li><img src="img/2.jpg" alt="facade" /></li>
+        <li><img src="img/3.jpg" alt="beach" /></li>
+        <li><img src="img/4.jpg" alt="diving" /></li>
+        <li><img src="img/5.jpeg" alt="test" /></li>
+        <li><img src="img/6.jpg" alt="workspace" /></li>
+        <li><img src="img/7.jpg" alt="meeting" /></li>
+        <li><img src="img/8.jpg" alt="cloud" /></li>
+        <li><img src="img/9.jpg" alt="flowers" /></li>
+        <li><img src="img/10.jpg" alt="sky" /></li>
+    </ul>
+  </body>
+</html>
